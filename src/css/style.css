@@ -1,0 +1,42 @@
+.glass-container{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2) !important;     
+    z-index: 1 !important;
+    background: inherit !important;
+    overflow: hidden !important;
+}
+
+.glass-container:before {
+    content: "";
+    position: absolute;
+    background: inherit !important;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5) !important;
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+nav div.v-navigation-drawer__border{
+    background-color: rgba(61, 90, 254, 0.11) !important;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute-img-card{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+  
+.contenedor-lista{
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+.title-activity-dialog{
+    cursor: pointer;
+}
